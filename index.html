@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="lib/main.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>PWS A5 HW</title>
+
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Курочка ряба</h1>
+      <i><h6>Вставьте нужные слова</h6></i>
+      <pre>
+        Жили-были <i>{var1}</i> да <i>{var2}</i>, 
+       Была у них <i>{var3}</i>,
+        Снесла <i>{var3} {var4}</i>, не простое - золотое,
+       - <i>{var1}</i> бил, бил - не разбил",
+       - <i>{var2}</i> била, била - не разбила",
+         <i>{var5}</i> бежала, <i>{var6}</i> задела, <i>{var4}</i> упало и разбилось.
+        <i>{var1}</i> плачет, <i>{var2}</i> плачет, а <i>{var3}</i> кудахчет:
+        <i>{speach}</i>
+      </pre>
+
+      <form id="messages">
+
+        <div class="form-group">
+          <label for="var1">var1</label>
+          <input type="text" class="form-control" name="var1" placeholder="" value="">
+        </div>
+        <div class="form-group">
+          <label for="var2">var2</label>
+          <input type="text" class="form-control" name="var2" placeholder="" value="">
+        </div>
+        <div class="form-group">
+          <label for="var3">var3</label>
+          <input type="text" class="form-control" name="var3" placeholder="" value="">
+        </div>
+        <div class="form-group">
+          <label for="var4">var4</label>
+          <input type="text" class="form-control" name="var4" placeholder="" value="">
+        </div>
+        <div class="form-group">
+          <label for="var5">var5</label>
+          <input type="text" class="form-control" name="var5" placeholder="" value="">
+        </div>
+         <div class="form-group">
+          <label for="var6">var6</label>
+          <input type="text" class="form-control" name="var6" placeholder="" value="">
+        </div>
+         <div class="form-group">
+          <label for="speach">speach</label>
+          <input type="text" class="form-control" name="speach" placeholder="" value="">
+        </div>
+
+      </form>
+
+      <div class="row">
+        <a id="button-fetch" class="btn btn-primary">Создать</a>
+      </div>
+
+      <div class="row">
+        <div id="result"></div>
+      </div>
+
+    </div>
+
+
+     <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script> 
+    <script src="./js/ryaba.js"></script>
+  </body>
+</html>
